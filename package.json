@@ -4,17 +4,11 @@
   "description": "a bot for gumbys",
   "main": "index.js",
   "scripts": {
-
     "start": "node index.js"
-
   },
   "author": "",
-  "license": "ISC",
   "dependencies": {
-
     "discord.js": "11.1.0",
-
     "request": "2.81.0"
-
   }
 }
