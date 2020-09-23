@@ -16,6 +16,10 @@ client.on("message", function(message) {
 	if (command === "egg") {
     		message.channel.send(`Have an egg!`, {files: ["https://pbs.twimg.com/profile_images/482980960258908160/XawV_qBz.jpeg"]});
   	};
+	
+	if (command === "balmek") {
+    		message.channel.send(`Have an egg!`, {files: ["https://www.belloflostsouls.net/wp-content/uploads/2018/03/7a.jpg"]});
+  	};
 });
 
 client.login(process.env.BOT_TOKEN);
