@@ -18,7 +18,7 @@ client.on("message", function(message) {
   	};
 	
 	if (command === "balmek") {
-    		message.channel.send(`Oops!`, {files: ["https://www.belloflostsouls.net/wp-content/uploads/2018/03/7a.jpg"]});
+    		message.channel.send(`Oops! Toasted!`, {files: ["https://www.belloflostsouls.net/wp-content/uploads/2018/03/7a.jpg"]});
   	};
 });
 
