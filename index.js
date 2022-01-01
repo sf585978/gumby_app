@@ -21,7 +21,7 @@ client.on("message", function(message) {
     		message.channel.send(`Oops! Toasted!`, {files: ["https://www.belloflostsouls.net/wp-content/uploads/2018/03/7a.jpg"]});
   	};
 	
-	if (command === "shitpost") {
+	if (command === "judgement") {
 		message.channel.send(`Oops! Toasted!`, {files: ["https://www.belloflostsouls.net/wp-content/uploads/2018/03/7a.jpg"]});
 		//message.channel.send(`Looks like someone has been shitposting! Cut it out!`, {files: ["https://i.kym-cdn.com/photos/images/facebook/000/866/490/6c4.png"]});
 		// if (Math.random() < 0.15) {
