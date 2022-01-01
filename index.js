@@ -20,6 +20,15 @@ client.on("message", function(message) {
 	if (command === "balmek") {
     		message.channel.send(`Oops! Toasted!`, {files: ["https://www.belloflostsouls.net/wp-content/uploads/2018/03/7a.jpg"]});
   	};
+	
+	if (command === "shitpost") {
+	    	var roll =(Math.random());
+		if (roll < 0.15) {
+			message.channel.send(`Looks like someone's been shitposting! Cut it out!`, {files: ["https://i.kym-cdn.com/photos/images/facebook/000/866/490/6c4.png"]});
+		} else {
+			message.channel.send(`I looked into this post and determined it is not a shitpost!`, {files: ["https://media.makeameme.org/created/one-does-not-5b5c3e.jpg"]});
+		}
+	};
 });
 
 client.login(process.env.BOT_TOKEN);
